@@ -3,6 +3,7 @@ name: variant_data
 # New data is released on Friday afternoons, so the
 # job runs every 20 mins from 3:20-7pm EST on Fridays
 on: 
+  workflow_dispatch:
   schedule:
     - cron: '20,40,59 20-23 * * 5'
 
