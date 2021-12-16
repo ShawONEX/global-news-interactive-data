@@ -1,0 +1,9 @@
+name: variant_data
+
+on:
+  workflow_dispatch:
+
+jobs:
+  job:
+    steps:
+      - name: step
