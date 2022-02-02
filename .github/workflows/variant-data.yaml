@@ -8,7 +8,7 @@ on:
     - cron: '19,39,59 19-23 * * 5'
 
 jobs:
-  variant-data:
+  scrape:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout repo
