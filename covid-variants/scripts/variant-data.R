@@ -1,4 +1,5 @@
 options(scipen = 999)
+Sys.setenv(TZ = "America/Toronto")
 
 library(dplyr)
 library(tidyr)
