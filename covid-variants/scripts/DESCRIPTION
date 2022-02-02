@@ -1,0 +1,11 @@
+Package: variantdata
+Version: 0.1.0
+Imports:
+	dplyr,
+	tidyr,
+	readr,
+	janitor,
+	lubridate,
+	scales,
+	ggplot2,
+	RColorBrewer
