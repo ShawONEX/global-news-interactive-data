@@ -58,8 +58,6 @@ if (dataset_date_match) {
     ungroup %>% 
     left_join(variant_sample_size, by = "week") %>% 
     select(week, n_samples, everything()) 
-    # %>% 
-    # mutate(last_updated = ifelse(row_number() == 1, last_updated, ""))
 
   variant_data_csv %>% write_csv("covid-variants/data/covid-19-variants-canada.csv")
 
@@ -80,7 +78,7 @@ if (dataset_date_match) {
       title = "COVID-19 Variant Prevalence, Canada",
       x = "", y = "", 
       fill = "Variant",
-      caption = paste0("Source: Public Health Agency of Canada\nLast updated ", last_updated)
+      caption = "Source: Public Health Agency of Canada"
     )
 
   variant_chart %>% 
