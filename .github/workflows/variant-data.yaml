@@ -5,7 +5,7 @@ name: variant_data
 on: 
   workflow_dispatch:
   schedule:
-    - cron: '20,40,59 20-23 * * 5'
+    - cron: '19,39,59 19-23 * * 5'
 
 jobs:
   variant_data:

@@ -10,6 +10,7 @@ library(ggplot2)
 library(RColorBrewer)
 
 cutoff_week <- "2020-10-31"
+output_data_file <- "covid-variants/data/covid-19-variants-canada.csv"
 
 # PHAC variant prevalence data
 variant_data_original <- read_csv(
@@ -25,9 +26,14 @@ variant_sample_size <- read_csv(
 
 data_max_week <- max(variant_data_original$collection_week)
 sample_max_week <- max(variant_sample_size$week)
-dataset_date_match <- data_max_week == sample_max_week
+current_data_max_week <- max(read_csv(output_data_file)$week)
 
-if (dataset_date_match) {
+# Only proceed if the two datasets have the same date range
+# and the latest date is more recent than the current data
+dataset_date_match <- data_max_week == sample_max_week
+new_date_update <- data_max_week > current_data_max_week
+
+if (dataset_date_match & new_date_update) {
   variant_data <- variant_data_original %>% 
 
     # Keep variants of concern as individual categories, 
@@ -57,9 +63,10 @@ if (dataset_date_match) {
     ) %>% 
     ungroup %>% 
     left_join(variant_sample_size, by = "week") %>% 
-    select(week, n_samples, everything()) 
+    select(week, n_samples, everything()) %>% 
+    mutate(last_updated = ifelse(row_number() == 1, last_updated, ""))
 
-  variant_data_csv %>% write_csv("covid-variants/data/covid-19-variants-canada.csv")
+  variant_data_csv %>% write_csv(output_data_file)
 
   # Save a chart
   variant_chart <- variant_data %>% 
@@ -78,7 +85,7 @@ if (dataset_date_match) {
       title = "COVID-19 Variant Prevalence, Canada",
       x = "", y = "", 
       fill = "Variant",
-      caption = "Source: Public Health Agency of Canada"
+      caption = paste0("Source: Public Health Agency of Canada\nLast updated: ", last_updated)
     )
 
   variant_chart %>% 
