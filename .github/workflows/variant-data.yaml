@@ -1,4 +1,4 @@
-name: variant_data
+name: variant-data
 
 on:
   workflow_dispatch:
