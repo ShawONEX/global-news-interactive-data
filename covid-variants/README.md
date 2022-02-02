@@ -11,4 +11,4 @@ An interactive visualization of the data can be seen in [this article](https://g
 ![A chart of COVID-19 variant prevalence in Canada](charts/covid-19-variants-canada.png)
 
 ## Changelog
-- 2021-12-TK: Initial publication of variant data.
+- 2022-02-02: Initial publication
