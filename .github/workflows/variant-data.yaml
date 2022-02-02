@@ -23,6 +23,8 @@ jobs:
       uses: r-lib/actions/setup-r-dependencies@v2
       with:
         working-directory: covid-variants/scripts
+    - name: Set timezone
+      run: sudo timedatectl set-timezone America/Toronto
     - name: Run data script
       run: Rscript covid-variants/scripts/variant-data.R
     - name: Commit data
