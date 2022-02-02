@@ -1,4 +1,4 @@
-name: variant_data
+name: variant-data
 
 # New data is released on Friday afternoons, so the
 # job runs every 20 mins from 3:20-7pm EST on Fridays
@@ -8,7 +8,7 @@ on:
     - cron: '19,39,59 19-23 * * 5'
 
 jobs:
-  variant_data:
+  variant-data:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout repo
@@ -27,7 +27,7 @@ jobs:
       run: Rscript covid-variants/scripts/variant-data.R
     - name: Commit data
       run: |-
-        git config user.name "Automated"
+        git config user.name "gn-scraper"
         git config user.email "actions@users.noreply.github.com"
         git add covid-variants/**/*
         timestamp=$(date -u)
