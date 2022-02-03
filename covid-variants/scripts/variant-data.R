@@ -9,9 +9,11 @@ library(lubridate)
 library(scales)
 library(ggplot2)
 library(RColorBrewer)
+library(jsonlite)
+library(purrr)
 
 cutoff_week <- "2020-10-31"
-output_data_file <- "covid-variants/data/covid-19-variants-canada.csv"
+output_data_file <- "covid-variants/data/covid-19-variants-canada.json"
 
 # PHAC variant prevalence data
 variant_data_original <- read_csv(
@@ -27,7 +29,8 @@ variant_sample_size <- read_csv(
 
 data_max_week <- max(variant_data_original$collection_week)
 sample_max_week <- max(variant_sample_size$week)
-current_data_max_week <- max(read_csv(output_data_file)$week)
+current_data_max_week <- read_json(output_data_file) %>%
+  pluck("data", length(.$data), "week")
 
 # Only proceed if the two datasets have the same date range
 # and the latest date is more recent than the current data
@@ -52,10 +55,8 @@ if (dataset_date_match & new_date_update) {
     mutate(percent_normalized = round(percent / sum(percent), digits = 3)) %>% 
     filter(week > cutoff_week)
 
-  last_updated <- format(now(), "%B %d, %Y at %I:%M %p %Z")
-
   # Format and write the CSV data
-  variant_data_csv <- variant_data %>% 
+  variant_data_output <- variant_data %>% 
     select(-percent) %>% 
     pivot_wider(
       names_from = variant_group, 
@@ -64,10 +65,16 @@ if (dataset_date_match & new_date_update) {
     ) %>% 
     ungroup %>% 
     left_join(variant_sample_size, by = "week") %>% 
-    select(week, n_samples, everything()) %>% 
-    mutate(last_updated = ifelse(row_number() == 1, last_updated, ""))
+    select(week, n_samples, everything()) 
 
-  variant_data_csv %>% write_csv(output_data_file)
+  list(
+    data = variant_data_output,
+    last_updated = format_ISO8601(now(), usetz = TRUE)
+  ) %>% write_json(
+    output_data_file, 
+    pretty = TRUE,
+    auto_unbox = TRUE
+  )
 
   # Save a chart
   variant_chart <- variant_data %>% 
@@ -86,7 +93,7 @@ if (dataset_date_match & new_date_update) {
       title = "COVID-19 Variant Prevalence, Canada",
       x = "", y = "", 
       fill = "Variant",
-      caption = paste0("Source: Public Health Agency of Canada\nLast updated: ", last_updated)
+      caption = paste0("Source: Public Health Agency of Canada\nLast updated: ", format(now(), "%B %d, %Y at %I:%M %p %Z"))
     )
 
   variant_chart %>% 

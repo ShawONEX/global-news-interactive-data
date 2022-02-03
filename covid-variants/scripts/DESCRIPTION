@@ -8,4 +8,6 @@ Imports:
 	lubridate,
 	scales,
 	ggplot2,
-	RColorBrewer
+	RColorBrewer,
+	jsonlite,
+	purrr
