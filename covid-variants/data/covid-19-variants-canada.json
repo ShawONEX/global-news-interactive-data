@@ -681,7 +681,18 @@
       "voi": 0,
       "gamma": 0,
       "omicron": 0.938
+    },
+    {
+      "week": "2022-01-09",
+      "n_samples": 404,
+      "alpha": 0,
+      "other": 0,
+      "delta": 0.079,
+      "beta": 0,
+      "voi": 0,
+      "gamma": 0,
+      "omicron": 0.921
     }
   ],
-  "last_updated": "2022-02-03T13:39:40-0500"
+  "last_updated": "2022-02-03T14:10:24-0500"
 }
