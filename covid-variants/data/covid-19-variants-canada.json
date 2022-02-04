@@ -8,8 +8,8 @@
       "delta": 0,
       "beta": 0,
       "voi": 0,
-      "gamma": 0,
-      "omicron": 0
+      "omicron": 0,
+      "gamma": 0
     },
     {
       "week": "2020-11-08",
@@ -19,19 +19,19 @@
       "delta": 0,
       "beta": 0,
       "voi": 0,
-      "gamma": 0,
-      "omicron": 0
+      "omicron": 0,
+      "gamma": 0
     },
     {
       "week": "2020-11-15",
-      "n_samples": 1056,
+      "n_samples": 1057,
       "alpha": 0,
       "other": 0.999,
       "delta": 0.001,
       "beta": 0,
       "voi": 0,
-      "gamma": 0,
-      "omicron": 0
+      "omicron": 0,
+      "gamma": 0
     },
     {
       "week": "2020-11-22",
@@ -41,8 +41,8 @@
       "delta": 0,
       "beta": 0,
       "voi": 0,
-      "gamma": 0,
-      "omicron": 0
+      "omicron": 0,
+      "gamma": 0
     },
     {
       "week": "2020-11-29",
@@ -52,19 +52,19 @@
       "delta": 0,
       "beta": 0,
       "voi": 0,
-      "gamma": 0,
-      "omicron": 0
+      "omicron": 0,
+      "gamma": 0
     },
     {
       "week": "2020-12-06",
-      "n_samples": 1181,
+      "n_samples": 1182,
       "alpha": 0,
       "other": 1,
       "delta": 0,
       "beta": 0,
       "voi": 0,
-      "gamma": 0,
-      "omicron": 0
+      "omicron": 0,
+      "gamma": 0
     },
     {
       "week": "2020-12-13",
@@ -74,8 +74,8 @@
       "delta": 0,
       "beta": 0.001,
       "voi": 0.003,
-      "gamma": 0,
-      "omicron": 0
+      "omicron": 0,
+      "gamma": 0
     },
     {
       "week": "2020-12-20",
@@ -85,8 +85,8 @@
       "delta": 0,
       "beta": 0.005,
       "voi": 0,
-      "gamma": 0,
-      "omicron": 0
+      "omicron": 0,
+      "gamma": 0
     },
     {
       "week": "2020-12-27",
@@ -96,30 +96,30 @@
       "delta": 0,
       "beta": 0.002,
       "voi": 0.001,
-      "gamma": 0,
-      "omicron": 0
+      "omicron": 0,
+      "gamma": 0
     },
     {
       "week": "2021-01-03",
-      "n_samples": 2288,
+      "n_samples": 2291,
       "alpha": 0.015,
-      "other": 0.976,
+      "other": 0.975,
       "delta": 0,
       "beta": 0.008,
       "voi": 0.001,
-      "gamma": 0,
-      "omicron": 0
+      "omicron": 0.001,
+      "gamma": 0
     },
     {
       "week": "2021-01-10",
-      "n_samples": 2724,
+      "n_samples": 2725,
       "alpha": 0.027,
       "other": 0.961,
       "delta": 0,
       "beta": 0.01,
       "voi": 0.001,
-      "gamma": 0.001,
-      "omicron": 0
+      "omicron": 0,
+      "gamma": 0.001
     },
     {
       "week": "2021-01-17",
@@ -129,8 +129,8 @@
       "delta": 0,
       "beta": 0.005,
       "voi": 0.001,
-      "gamma": 0,
-      "omicron": 0
+      "omicron": 0,
+      "gamma": 0
     },
     {
       "week": "2021-01-24",
@@ -140,8 +140,8 @@
       "delta": 0,
       "beta": 0.007,
       "voi": 0.002,
-      "gamma": 0,
-      "omicron": 0
+      "omicron": 0,
+      "gamma": 0
     },
     {
       "week": "2021-01-31",
@@ -151,19 +151,19 @@
       "delta": 0,
       "beta": 0.012,
       "voi": 0.007,
-      "gamma": 0.003,
-      "omicron": 0
+      "omicron": 0,
+      "gamma": 0.003
     },
     {
       "week": "2021-02-07",
       "n_samples": 2936,
       "alpha": 0.257,
-      "other": 0.702,
+      "other": 0.701,
       "delta": 0,
       "beta": 0.023,
       "voi": 0.012,
-      "gamma": 0.006,
-      "omicron": 0
+      "omicron": 0,
+      "gamma": 0.006
     },
     {
       "week": "2021-02-14",
@@ -173,8 +173,8 @@
       "delta": 0,
       "beta": 0.012,
       "voi": 0.019,
-      "gamma": 0.014,
-      "omicron": 0
+      "omicron": 0,
+      "gamma": 0.014
     },
     {
       "week": "2021-02-21",
@@ -184,107 +184,107 @@
       "delta": 0,
       "beta": 0.02,
       "voi": 0.021,
-      "gamma": 0.024,
-      "omicron": 0
+      "omicron": 0,
+      "gamma": 0.024
     },
     {
       "week": "2021-02-28",
-      "n_samples": 3830,
+      "n_samples": 3835,
       "alpha": 0.408,
       "other": 0.515,
       "delta": 0,
       "beta": 0.014,
       "voi": 0.034,
-      "gamma": 0.029,
-      "omicron": 0
+      "omicron": 0,
+      "gamma": 0.029
     },
     {
       "week": "2021-03-07",
-      "n_samples": 4207,
-      "alpha": 0.368,
-      "other": 0.533,
+      "n_samples": 4217,
+      "alpha": 0.367,
+      "other": 0.534,
       "delta": 0,
       "beta": 0.009,
       "voi": 0.032,
-      "gamma": 0.058,
-      "omicron": 0
+      "omicron": 0,
+      "gamma": 0.058
     },
     {
       "week": "2021-03-14",
-      "n_samples": 4458,
+      "n_samples": 4464,
       "alpha": 0.451,
       "other": 0.412,
       "delta": 0,
       "beta": 0.017,
       "voi": 0.024,
-      "gamma": 0.096,
-      "omicron": 0
+      "omicron": 0,
+      "gamma": 0.096
     },
     {
       "week": "2021-03-21",
-      "n_samples": 6645,
+      "n_samples": 6646,
       "alpha": 0.452,
       "other": 0.284,
       "delta": 0.001,
       "beta": 0.019,
       "voi": 0.056,
-      "gamma": 0.188,
-      "omicron": 0
+      "omicron": 0,
+      "gamma": 0.188
     },
     {
       "week": "2021-03-28",
-      "n_samples": 5940,
-      "alpha": 0.411,
-      "other": 0.26,
+      "n_samples": 5958,
+      "alpha": 0.409,
+      "other": 0.263,
       "delta": 0.001,
       "beta": 0.021,
       "voi": 0.073,
-      "gamma": 0.234,
-      "omicron": 0
+      "omicron": 0,
+      "gamma": 0.233
     },
     {
       "week": "2021-04-04",
-      "n_samples": 7671,
-      "alpha": 0.374,
-      "other": 0.271,
-      "delta": 0.005,
+      "n_samples": 7725,
+      "alpha": 0.372,
+      "other": 0.276,
+      "delta": 0.004,
       "beta": 0.028,
       "voi": 0.068,
-      "gamma": 0.254,
-      "omicron": 0
+      "omicron": 0,
+      "gamma": 0.252
     },
     {
       "week": "2021-04-11",
-      "n_samples": 7345,
-      "alpha": 0.483,
-      "other": 0.189,
+      "n_samples": 7386,
+      "alpha": 0.481,
+      "other": 0.191,
       "delta": 0.015,
       "beta": 0.019,
-      "voi": 0.056,
-      "gamma": 0.238,
-      "omicron": 0
+      "voi": 0.057,
+      "omicron": 0,
+      "gamma": 0.236
     },
     {
       "week": "2021-04-18",
-      "n_samples": 6746,
+      "n_samples": 6753,
       "alpha": 0.562,
       "other": 0.162,
       "delta": 0.036,
       "beta": 0.012,
-      "voi": 0.039,
-      "gamma": 0.188,
-      "omicron": 0
+      "voi": 0.04,
+      "omicron": 0,
+      "gamma": 0.187
     },
     {
       "week": "2021-04-25",
       "n_samples": 7991,
-      "alpha": 0.538,
+      "alpha": 0.539,
       "other": 0.132,
       "delta": 0.047,
       "beta": 0.016,
       "voi": 0.039,
-      "gamma": 0.227,
-      "omicron": 0
+      "omicron": 0,
+      "gamma": 0.227
     },
     {
       "week": "2021-05-02",
@@ -294,19 +294,19 @@
       "delta": 0.049,
       "beta": 0.009,
       "voi": 0.039,
-      "gamma": 0.204,
-      "omicron": 0
+      "omicron": 0,
+      "gamma": 0.204
     },
     {
       "week": "2021-05-09",
       "n_samples": 4872,
-      "alpha": 0.6,
+      "alpha": 0.599,
       "other": 0.066,
       "delta": 0.074,
       "beta": 0.009,
       "voi": 0.026,
-      "gamma": 0.225,
-      "omicron": 0
+      "omicron": 0,
+      "gamma": 0.225
     },
     {
       "week": "2021-05-16",
@@ -316,8 +316,8 @@
       "delta": 0.099,
       "beta": 0.01,
       "voi": 0.031,
-      "gamma": 0.242,
-      "omicron": 0
+      "omicron": 0,
+      "gamma": 0.242
     },
     {
       "week": "2021-05-23",
@@ -327,30 +327,30 @@
       "delta": 0.131,
       "beta": 0.006,
       "voi": 0.031,
-      "gamma": 0.22,
-      "omicron": 0
+      "omicron": 0,
+      "gamma": 0.22
     },
     {
       "week": "2021-05-30",
       "n_samples": 3287,
       "alpha": 0.576,
       "other": 0.024,
-      "delta": 0.158,
+      "delta": 0.157,
       "beta": 0.007,
       "voi": 0.023,
-      "gamma": 0.211,
-      "omicron": 0
+      "omicron": 0,
+      "gamma": 0.212
     },
     {
       "week": "2021-06-06",
-      "n_samples": 3537,
+      "n_samples": 3538,
       "alpha": 0.524,
       "other": 0.049,
       "delta": 0.234,
       "beta": 0.005,
       "voi": 0.04,
-      "gamma": 0.148,
-      "omicron": 0
+      "omicron": 0,
+      "gamma": 0.148
     },
     {
       "week": "2021-06-13",
@@ -360,19 +360,19 @@
       "delta": 0.355,
       "beta": 0.005,
       "voi": 0.036,
-      "gamma": 0.12,
-      "omicron": 0
+      "omicron": 0,
+      "gamma": 0.119
     },
     {
       "week": "2021-06-20",
       "n_samples": 2950,
-      "alpha": 0.425,
+      "alpha": 0.424,
       "other": 0.048,
       "delta": 0.386,
       "beta": 0.008,
       "voi": 0.036,
-      "gamma": 0.097,
-      "omicron": 0
+      "omicron": 0,
+      "gamma": 0.098
     },
     {
       "week": "2021-06-27",
@@ -382,8 +382,8 @@
       "delta": 0.58,
       "beta": 0.007,
       "voi": 0.028,
-      "gamma": 0.103,
-      "omicron": 0
+      "omicron": 0,
+      "gamma": 0.103
     },
     {
       "week": "2021-07-04",
@@ -393,8 +393,8 @@
       "delta": 0.656,
       "beta": 0.004,
       "voi": 0.014,
-      "gamma": 0.098,
-      "omicron": 0
+      "omicron": 0,
+      "gamma": 0.098
     },
     {
       "week": "2021-07-11",
@@ -404,19 +404,19 @@
       "delta": 0.717,
       "beta": 0.002,
       "voi": 0.042,
-      "gamma": 0.082,
-      "omicron": 0
+      "omicron": 0,
+      "gamma": 0.082
     },
     {
       "week": "2021-07-18",
       "n_samples": 2334,
       "alpha": 0.08,
       "other": 0.003,
-      "delta": 0.832,
+      "delta": 0.833,
       "beta": 0.002,
       "voi": 0.039,
-      "gamma": 0.043,
-      "omicron": 0
+      "omicron": 0,
+      "gamma": 0.042
     },
     {
       "week": "2021-07-25",
@@ -426,8 +426,8 @@
       "delta": 0.902,
       "beta": 0,
       "voi": 0.026,
-      "gamma": 0.02,
-      "omicron": 0
+      "omicron": 0,
+      "gamma": 0.02
     },
     {
       "week": "2021-08-01",
@@ -437,19 +437,19 @@
       "delta": 0.91,
       "beta": 0,
       "voi": 0.03,
-      "gamma": 0.014,
-      "omicron": 0
+      "omicron": 0,
+      "gamma": 0.014
     },
     {
       "week": "2021-08-08",
-      "n_samples": 7477,
+      "n_samples": 7481,
       "alpha": 0.023,
       "other": 0.004,
       "delta": 0.931,
       "beta": 0,
       "voi": 0.036,
-      "gamma": 0.006,
-      "omicron": 0
+      "omicron": 0,
+      "gamma": 0.006
     },
     {
       "week": "2021-08-15",
@@ -459,30 +459,30 @@
       "delta": 0.962,
       "beta": 0,
       "voi": 0.021,
-      "gamma": 0.004,
-      "omicron": 0
+      "omicron": 0,
+      "gamma": 0.004
     },
     {
       "week": "2021-08-22",
       "n_samples": 8725,
       "alpha": 0.006,
       "other": 0,
-      "delta": 0.97,
+      "delta": 0.969,
       "beta": 0,
       "voi": 0.021,
-      "gamma": 0.003,
-      "omicron": 0
+      "omicron": 0,
+      "gamma": 0.004
     },
     {
       "week": "2021-08-29",
-      "n_samples": 8120,
+      "n_samples": 8121,
       "alpha": 0.007,
       "other": 0,
       "delta": 0.988,
       "beta": 0,
       "voi": 0.003,
-      "gamma": 0.002,
-      "omicron": 0
+      "omicron": 0,
+      "gamma": 0.002
     },
     {
       "week": "2021-09-05",
@@ -492,8 +492,8 @@
       "delta": 0.993,
       "beta": 0,
       "voi": 0.002,
-      "gamma": 0.001,
-      "omicron": 0
+      "omicron": 0,
+      "gamma": 0.001
     },
     {
       "week": "2021-09-12",
@@ -503,8 +503,8 @@
       "delta": 0.995,
       "beta": 0,
       "voi": 0.001,
-      "gamma": 0.001,
-      "omicron": 0
+      "omicron": 0,
+      "gamma": 0.001
     },
     {
       "week": "2021-09-19",
@@ -514,8 +514,8 @@
       "delta": 0.997,
       "beta": 0,
       "voi": 0,
-      "gamma": 0,
-      "omicron": 0
+      "omicron": 0,
+      "gamma": 0
     },
     {
       "week": "2021-09-26",
@@ -525,8 +525,8 @@
       "delta": 1,
       "beta": 0,
       "voi": 0,
-      "gamma": 0,
-      "omicron": 0
+      "omicron": 0,
+      "gamma": 0
     },
     {
       "week": "2021-10-03",
@@ -536,8 +536,8 @@
       "delta": 0.999,
       "beta": 0,
       "voi": 0,
-      "gamma": 0,
-      "omicron": 0
+      "omicron": 0,
+      "gamma": 0
     },
     {
       "week": "2021-10-10",
@@ -547,152 +547,163 @@
       "delta": 0.999,
       "beta": 0,
       "voi": 0,
-      "gamma": 0,
-      "omicron": 0
+      "omicron": 0,
+      "gamma": 0
     },
     {
       "week": "2021-10-17",
-      "n_samples": 4770,
+      "n_samples": 4772,
       "alpha": 0,
       "other": 0,
       "delta": 1,
       "beta": 0,
       "voi": 0,
-      "gamma": 0,
-      "omicron": 0
+      "omicron": 0,
+      "gamma": 0
     },
     {
       "week": "2021-10-24",
-      "n_samples": 3820,
+      "n_samples": 3821,
       "alpha": 0,
       "other": 0,
       "delta": 1,
       "beta": 0,
       "voi": 0,
-      "gamma": 0,
-      "omicron": 0
+      "omicron": 0,
+      "gamma": 0
     },
     {
       "week": "2021-10-31",
-      "n_samples": 4865,
-      "alpha": 0,
-      "other": 0,
-      "delta": 1,
-      "beta": 0,
-      "voi": 0,
-      "gamma": 0,
-      "omicron": 0
-    },
-    {
-      "week": "2021-11-07",
       "n_samples": 4897,
       "alpha": 0,
       "other": 0,
       "delta": 1,
       "beta": 0,
       "voi": 0,
-      "gamma": 0,
-      "omicron": 0
+      "omicron": 0,
+      "gamma": 0
     },
     {
-      "week": "2021-11-14",
-      "n_samples": 5283,
+      "week": "2021-11-07",
+      "n_samples": 4906,
       "alpha": 0,
       "other": 0,
       "delta": 1,
       "beta": 0,
       "voi": 0,
-      "gamma": 0,
-      "omicron": 0
+      "omicron": 0,
+      "gamma": 0
+    },
+    {
+      "week": "2021-11-14",
+      "n_samples": 5363,
+      "alpha": 0,
+      "other": 0,
+      "delta": 1,
+      "beta": 0,
+      "voi": 0,
+      "omicron": 0,
+      "gamma": 0
     },
     {
       "week": "2021-11-21",
-      "n_samples": 6119,
+      "n_samples": 6226,
       "alpha": 0,
       "other": 0,
-      "delta": 0.997,
+      "delta": 0.998,
       "beta": 0,
       "voi": 0,
-      "gamma": 0,
-      "omicron": 0.003
+      "omicron": 0.002,
+      "gamma": 0
     },
     {
       "week": "2021-11-28",
-      "n_samples": 6286,
+      "n_samples": 6571,
       "alpha": 0,
       "other": 0,
-      "delta": 0.981,
+      "delta": 0.979,
       "beta": 0,
       "voi": 0,
-      "gamma": 0,
-      "omicron": 0.019
+      "omicron": 0.021,
+      "gamma": 0
     },
     {
       "week": "2021-12-05",
-      "n_samples": 6127,
+      "n_samples": 6399,
       "alpha": 0,
       "other": 0.001,
-      "delta": 0.78,
+      "delta": 0.773,
       "beta": 0,
       "voi": 0,
-      "gamma": 0,
-      "omicron": 0.219
+      "omicron": 0.226,
+      "gamma": 0
     },
     {
       "week": "2021-12-12",
-      "n_samples": 6647,
+      "n_samples": 7756,
       "alpha": 0,
-      "other": 0.001,
-      "delta": 0.431,
+      "other": 0,
+      "delta": 0.423,
       "beta": 0,
       "voi": 0,
-      "gamma": 0,
-      "omicron": 0.568
+      "omicron": 0.577,
+      "gamma": 0
     },
     {
       "week": "2021-12-19",
-      "n_samples": 8597,
+      "n_samples": 8777,
       "alpha": 0,
       "other": 0.001,
-      "delta": 0.155,
+      "delta": 0.151,
       "beta": 0,
       "voi": 0,
-      "gamma": 0,
-      "omicron": 0.844
+      "omicron": 0.848,
+      "gamma": 0
     },
     {
       "week": "2021-12-26",
-      "n_samples": 7168,
+      "n_samples": 8918,
       "alpha": 0,
       "other": 0,
-      "delta": 0.059,
+      "delta": 0.058,
       "beta": 0,
       "voi": 0,
-      "gamma": 0,
-      "omicron": 0.941
+      "omicron": 0.942,
+      "gamma": 0
     },
     {
       "week": "2022-01-02",
-      "n_samples": 2518,
+      "n_samples": 7906,
       "alpha": 0,
-      "other": 0.002,
-      "delta": 0.06,
+      "other": 0,
+      "delta": 0.038,
       "beta": 0,
       "voi": 0,
-      "gamma": 0,
-      "omicron": 0.938
+      "omicron": 0.962,
+      "gamma": 0
     },
     {
       "week": "2022-01-09",
-      "n_samples": 404,
+      "n_samples": 4836,
       "alpha": 0,
       "other": 0,
-      "delta": 0.079,
+      "delta": 0.03,
       "beta": 0,
       "voi": 0,
-      "gamma": 0,
-      "omicron": 0.921
+      "omicron": 0.97,
+      "gamma": 0
+    },
+    {
+      "week": "2022-01-16",
+      "n_samples": 1259,
+      "alpha": 0,
+      "other": 0.001,
+      "delta": 0.018,
+      "beta": 0,
+      "voi": 0,
+      "omicron": 0.981,
+      "gamma": 0
     }
   ],
-  "last_updated": "2022-02-03T14:10:24-0500"
+  "last_updated": "2022-02-04T16:21:41-0500"
 }
