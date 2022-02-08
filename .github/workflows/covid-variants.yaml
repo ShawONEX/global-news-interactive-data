@@ -1,4 +1,4 @@
-name: variant_data
+name: covid-variants
 
 # New data is released on Friday afternoons, so the
 # job runs every 20 mins from 2:20-7pm EST on Fridays

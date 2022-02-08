@@ -12,7 +12,7 @@ library(RColorBrewer)
 library(jsonlite)
 library(purrr)
 
-cutoff_week <- "2020-10-31"
+cutoff_week <- "2020-03-01"
 output_data_file <- "covid-variants/data/covid-19-variants-canada.json"
 
 # PHAC variant prevalence data
@@ -53,9 +53,9 @@ if (dataset_date_match & new_date_update) {
 
     # Weekly percentages don't always total exactly 100 — this step normalizes them
     mutate(percent_normalized = round(percent / sum(percent), digits = 3)) %>% 
-    filter(week > cutoff_week)
+    filter(week >= cutoff_week)
 
-  # Format and write the CSV data
+  # Format and write the JSON data
   variant_data_output <- variant_data %>% 
     select(-percent) %>% 
     pivot_wider(
@@ -83,8 +83,8 @@ if (dataset_date_match & new_date_update) {
       x = week, 
       y = percent_normalized, 
       group = variant_group, 
-      fill = variant_group)
-    ) + 
+      fill = variant_group
+    )) + 
     geom_col() + 
     scale_fill_manual(values = brewer.pal(7, "Purples")[2:7]) + 
     theme_minimal() +
@@ -93,8 +93,10 @@ if (dataset_date_match & new_date_update) {
       title = "COVID-19 Variant Prevalence, Canada",
       x = "", y = "", 
       fill = "Variant",
-      caption = paste0("Source: Public Health Agency of Canada\nLast updated: ", format(now(), "%B %d, %Y at %I:%M %p %Z"))
-    )
+      caption = paste0(
+        "Source: Public Health Agency of Canada\nLast updated: ",
+        format(now(), "%B %d, %Y at %I:%M %p %Z")
+    ))
 
   variant_chart %>% 
     ggsave("covid-variants/charts/covid-19-variants-canada.png", ., device = "png", width = 8, height = 5)
