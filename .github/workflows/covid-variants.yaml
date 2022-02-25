@@ -6,6 +6,7 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '19,39,59 19-23 * * 5'
+    - cron: '0 5 * * *'
 
 jobs:
   scrape:
@@ -15,17 +16,28 @@ jobs:
       uses: actions/checkout@v2
       with:
         fetch-depth: 0
+    - name: Should run
+      id: shouldRun
+      run: |-
+        last_timestamp=$(git log --grep="Variant data" -1 --pretty=format:"%at")
+        current_timestamp=$(date +%s)
+        time_diff=$((($current_timestamp - $last_timestamp) / (60 * 60)))
+        echo ::set-output name=timeDiff::$(echo $time_diff)
     - name: Setup R
       uses: r-lib/actions/setup-r@v2
+      if: steps.shouldRun.outputs.timeDiff > 24
       with:
         install-r: false
     - name: Setup R dependencies
       uses: r-lib/actions/setup-r-dependencies@v2
+      if: steps.shouldRun.outputs.timeDiff > 24
       with:
         working-directory: covid-variants/scripts
     - name: Run data script
       run: Rscript covid-variants/scripts/variant-data.R
+      if: steps.shouldRun.outputs.timeDiff > 24
     - name: Commit data
+      if: steps.shouldRun.outputs.timeDiff > 24
       run: |-
         git config user.name "gn-scraper"
         git config user.email "actions@users.noreply.github.com"
