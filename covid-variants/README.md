@@ -11,5 +11,6 @@ An interactive visualization of the data can be seen in [this article](https://g
 ![A chart of COVID-19 variant prevalence in Canada](charts/covid-19-variants-canada.png)
 
 ## Changelog
+- 2022-03-22: Separate Omicron BA.1 and BA.2 subvariants
 - 2022-02-08: Include data from March 2020 onward 
 - 2022-02-02: Initial publication

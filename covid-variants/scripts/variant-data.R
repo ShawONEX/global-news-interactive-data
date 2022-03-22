@@ -44,8 +44,9 @@ if (dataset_date_match & new_date_update) {
     # group variants of interest into a single category,
     # and collapse everything else into "other"
     mutate(variant_group = case_when(
-      variant_grouping == "VOC" ~ tolower(identifier),
-      variant_grouping == "VOI" ~ "voi",
+      lineage_grouped  == "BA.2" ~ "omicron_ba2",
+      variant_grouping == "VOC"  ~ tolower(identifier),
+      variant_grouping == "VOI"  ~ "voi",
       TRUE ~ "other"
     )) %>% 
     group_by(week = collection_week, variant_group) %>% 
@@ -86,7 +87,7 @@ if (dataset_date_match & new_date_update) {
       fill = variant_group
     )) + 
     geom_col() + 
-    scale_fill_manual(values = brewer.pal(7, "Purples")[2:7]) + 
+    scale_fill_manual(values = brewer.pal(8, "Purples")[2:8]) + 
     theme_minimal() +
     scale_y_continuous(labels = percent) +
     labs(
