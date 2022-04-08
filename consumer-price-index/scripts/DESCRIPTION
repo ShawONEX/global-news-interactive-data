@@ -1,0 +1,13 @@
+Package: cpi
+Version: 0.1.0
+Imports:
+	dplyr,
+	tidyr,
+	vroom,
+	stringr,
+	janitor,
+	jsonlite,
+	tidygraph,
+	ggraph,
+	purrr,
+	lubridate
