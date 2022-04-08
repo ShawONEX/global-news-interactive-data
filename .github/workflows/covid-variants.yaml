@@ -5,7 +5,7 @@ name: covid-variants
 on: 
   workflow_dispatch:
   schedule:
-    - cron: '19,39,59 19-23 * * 5'
+    - cron: '19,39,59 18-23 * * 5'
     - cron: '0 5 * * *'
 
 jobs:
