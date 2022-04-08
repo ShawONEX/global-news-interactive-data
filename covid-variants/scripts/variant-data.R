@@ -44,7 +44,7 @@ if (dataset_date_match & new_date_update) {
     # group variants of interest into a single category,
     # and collapse everything else into "other"
     mutate(variant_group = case_when(
-      lineage_grouped  == "BA.2" ~ "omicron_ba2",
+      str_detect(lineage_grouped, "BA.2") ~ "omicron_ba2",
       variant_grouping == "VOC"  ~ tolower(identifier),
       variant_grouping == "VOI"  ~ "voi",
       TRUE ~ "other"
