@@ -10,4 +10,5 @@ Imports:
 	ggplot2,
 	RColorBrewer,
 	jsonlite,
-	purrr
+	purrr,
+	stringr

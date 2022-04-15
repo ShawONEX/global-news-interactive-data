@@ -5,6 +5,7 @@ library(dplyr)
 library(tidyr)
 library(readr)
 library(janitor)
+library(stringr)
 library(lubridate)
 library(scales)
 library(ggplot2)
@@ -44,7 +45,9 @@ if (dataset_date_match & new_date_update) {
     # group variants of interest into a single category,
     # and collapse everything else into "other"
     mutate(variant_group = case_when(
+      str_detect(lineage_grouped, "BA.1") ~ "omicron_ba1",
       str_detect(lineage_grouped, "BA.2") ~ "omicron_ba2",
+      identifier == "Omicron" ~ "other_omicron",
       variant_grouping == "VOC"  ~ tolower(identifier),
       variant_grouping == "VOI"  ~ "voi",
       TRUE ~ "other"
@@ -87,7 +90,7 @@ if (dataset_date_match & new_date_update) {
       fill = variant_group
     )) + 
     geom_col() + 
-    scale_fill_manual(values = brewer.pal(8, "Purples")[2:8]) + 
+    scale_fill_manual(values = brewer.pal(9, "Purples")[2:9]) + 
     theme_minimal() +
     scale_y_continuous(labels = percent) +
     labs(
