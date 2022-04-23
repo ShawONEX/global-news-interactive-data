@@ -47,9 +47,8 @@ if (dataset_date_match & new_date_update) {
     mutate(variant_group = case_when(
       str_detect(lineage_grouped, "BA.1") ~ "omicron_ba1",
       str_detect(lineage_grouped, "BA.2") ~ "omicron_ba2",
-      identifier == "Omicron" ~ "other_omicron",
-      variant_grouping == "VOC"  ~ tolower(identifier),
-      variant_grouping == "VOI"  ~ "voi",
+      variant_grouping == "Omicron" ~ "other_omicron",
+      variant_grouping %in% c("Alpha", "Beta", "Gamma", "Delta") ~ tolower(identifier),
       TRUE ~ "other"
     )) %>% 
     group_by(week = collection_week, variant_group) %>% 
