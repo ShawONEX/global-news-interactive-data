@@ -94,6 +94,7 @@ cpi_subset <- cpi_joined %>%
       product == "Alcoholic beverages, tobacco products and recreational cannabis" ~ "Alcohol, tobacco and cannabis",
       product == "Eye care services" ~ "Eye care",
       product == "Dental care services" ~ "Dental care",
+      product == "Child care services" ~ "Child care",
       TRUE ~ product
     ),
     category = case_when(

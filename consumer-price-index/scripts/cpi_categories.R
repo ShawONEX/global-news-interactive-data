@@ -7,7 +7,7 @@ cpi_list <- c(
   "Vegetables and vegetable preparations",
   "Coffee",
   "Food purchased from restaurants",
-  "Rented accommodation",
+  "Rent",
   "Owned accommodation",
   "Electricity",
   "Water",
