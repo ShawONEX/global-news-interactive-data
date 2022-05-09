@@ -4,3 +4,4 @@ This repository contains data used in interactives and data visualizations publi
 
 ## Datasets
 * [COVID-19 variant data](covid-variants/)
+* [Consumer Price Index data](consumer-price-index/)
