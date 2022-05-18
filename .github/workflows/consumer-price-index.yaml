@@ -1,6 +1,17 @@
 name: consumer-price-index
 
 on: 
+  schedule:
+    - cron: '35 12 22 06 *'
+    - cron: '35 12 20 07 *'
+    - cron: '35 12 16 08 *'
+    - cron: '35 12 20 09 *'
+    - cron: '35 12 19 10 *'
+    - cron: '35 13 16 11 *'
+    - cron: '35 13 21 12 *'
+    - cron: '35 13 17 01 *'
+    - cron: '35 13 21 02 *'
+    - cron: '35 13 21 03 *'
   workflow_dispatch:
 
 jobs:
