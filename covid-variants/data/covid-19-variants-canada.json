@@ -86,9 +86,9 @@
     },
     {
       "week": "2020-04-19",
-      "n_samples": 935,
-      "other": 0.999,
-      "alpha": 0.001,
+      "n_samples": 934,
+      "other": 1,
+      "alpha": 0,
       "omicron_ba2": 0,
       "delta": 0,
       "beta": 0,
@@ -710,7 +710,7 @@
     },
     {
       "week": "2021-04-18",
-      "n_samples": 6914,
+      "n_samples": 6915,
       "other": 0.2,
       "alpha": 0.563,
       "omicron_ba2": 0,
@@ -770,13 +770,13 @@
     },
     {
       "week": "2021-05-23",
-      "n_samples": 3454,
+      "n_samples": 3456,
       "other": 0.068,
       "alpha": 0.576,
       "omicron_ba2": 0,
-      "delta": 0.131,
+      "delta": 0.132,
       "beta": 0.006,
-      "gamma": 0.219,
+      "gamma": 0.218,
       "omicron_ba1": 0,
       "other_omicron": 0
     },
@@ -974,7 +974,7 @@
     },
     {
       "week": "2021-09-19",
-      "n_samples": 4041,
+      "n_samples": 4042,
       "other": 0,
       "alpha": 0.002,
       "omicron_ba2": 0,
@@ -1154,7 +1154,7 @@
     },
     {
       "week": "2022-01-02",
-      "n_samples": 9202,
+      "n_samples": 9203,
       "other": 0,
       "alpha": 0,
       "omicron_ba2": 0.012,
@@ -1214,7 +1214,7 @@
     },
     {
       "week": "2022-02-06",
-      "n_samples": 5200,
+      "n_samples": 5202,
       "other": 0,
       "alpha": 0,
       "omicron_ba2": 0.093,
@@ -1274,7 +1274,7 @@
     },
     {
       "week": "2022-03-13",
-      "n_samples": 4110,
+      "n_samples": 4111,
       "other": 0,
       "alpha": 0,
       "omicron_ba2": 0.475,
@@ -1322,7 +1322,7 @@
     },
     {
       "week": "2022-04-10",
-      "n_samples": 4562,
+      "n_samples": 4563,
       "other": 0,
       "alpha": 0,
       "omicron_ba2": 0.903,
@@ -1346,7 +1346,7 @@
     },
     {
       "week": "2022-04-24",
-      "n_samples": 4842,
+      "n_samples": 4871,
       "other": 0.001,
       "alpha": 0,
       "omicron_ba2": 0.959,
@@ -1358,64 +1358,76 @@
     },
     {
       "week": "2022-05-01",
-      "n_samples": 4128,
+      "n_samples": 4150,
+      "other": 0,
+      "alpha": 0,
+      "omicron_ba2": 0.967,
+      "delta": 0,
+      "beta": 0,
+      "gamma": 0,
+      "omicron_ba1": 0.029,
+      "other_omicron": 0.004
+    },
+    {
+      "week": "2022-05-08",
+      "n_samples": 4115,
+      "other": 0,
+      "alpha": 0,
+      "omicron_ba2": 0.975,
+      "delta": 0,
+      "beta": 0,
+      "gamma": 0,
+      "omicron_ba1": 0.017,
+      "other_omicron": 0.008
+    },
+    {
+      "week": "2022-05-15",
+      "n_samples": 3662,
       "other": 0,
       "alpha": 0,
       "omicron_ba2": 0.97,
       "delta": 0,
       "beta": 0,
       "gamma": 0,
-      "omicron_ba1": 0.026,
-      "other_omicron": 0.004
-    },
-    {
-      "week": "2022-05-08",
-      "n_samples": 4100,
-      "other": 0,
-      "alpha": 0,
-      "omicron_ba2": 0.976,
-      "delta": 0,
-      "beta": 0,
-      "gamma": 0,
-      "omicron_ba1": 0.016,
-      "other_omicron": 0.008
-    },
-    {
-      "week": "2022-05-15",
-      "n_samples": 3529,
-      "other": 0,
-      "alpha": 0,
-      "omicron_ba2": 0.971,
-      "delta": 0,
-      "beta": 0,
-      "gamma": 0,
-      "omicron_ba1": 0.009,
+      "omicron_ba1": 0.01,
       "other_omicron": 0.02
     },
     {
       "week": "2022-05-22",
-      "n_samples": 2648,
+      "n_samples": 3238,
       "other": 0,
       "alpha": 0,
-      "omicron_ba2": 0.928,
+      "omicron_ba2": 0.929,
       "delta": 0,
       "beta": 0,
       "gamma": 0,
-      "omicron_ba1": 0.011,
+      "omicron_ba1": 0.01,
       "other_omicron": 0.061
     },
     {
       "week": "2022-05-29",
-      "n_samples": 1972,
-      "other": 0.001,
+      "n_samples": 2636,
+      "other": 0,
       "alpha": 0,
-      "omicron_ba2": 0.89,
+      "omicron_ba2": 0.889,
       "delta": 0,
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0.003,
-      "other_omicron": 0.106
+      "other_omicron": 0.108
+    },
+    {
+      "week": "2022-06-05",
+      "n_samples": 1381,
+      "other": 0,
+      "alpha": 0,
+      "omicron_ba2": 0.769,
+      "delta": 0,
+      "beta": 0,
+      "gamma": 0,
+      "omicron_ba1": 0.003,
+      "other_omicron": 0.228
     }
   ],
-  "last_updated": "2022-06-17T15:04:10-0400"
+  "last_updated": "2022-06-24T15:03:48-0400"
 }
