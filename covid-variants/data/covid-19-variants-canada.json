@@ -10,7 +10,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2020-03-08",
@@ -22,7 +24,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2020-03-15",
@@ -34,7 +38,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2020-03-22",
@@ -46,7 +52,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2020-03-29",
@@ -58,7 +66,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2020-04-05",
@@ -70,7 +80,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2020-04-12",
@@ -82,7 +94,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2020-04-19",
@@ -94,7 +108,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2020-04-26",
@@ -106,7 +122,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2020-05-03",
@@ -118,7 +136,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2020-05-10",
@@ -130,7 +150,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2020-05-17",
@@ -142,7 +164,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2020-05-24",
@@ -154,7 +178,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2020-05-31",
@@ -166,7 +192,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2020-06-07",
@@ -178,7 +206,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2020-06-14",
@@ -190,7 +220,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2020-06-21",
@@ -202,7 +234,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2020-06-28",
@@ -214,7 +248,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2020-07-05",
@@ -226,7 +262,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2020-07-12",
@@ -238,7 +276,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2020-07-19",
@@ -250,7 +290,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2020-07-26",
@@ -262,7 +304,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2020-08-02",
@@ -274,7 +318,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2020-08-09",
@@ -286,7 +332,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2020-08-16",
@@ -298,7 +346,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2020-08-23",
@@ -310,7 +360,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2020-08-30",
@@ -322,7 +374,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2020-09-06",
@@ -334,7 +388,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2020-09-13",
@@ -346,7 +402,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2020-09-20",
@@ -358,7 +416,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2020-09-27",
@@ -370,7 +430,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2020-10-04",
@@ -382,7 +444,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2020-10-11",
@@ -394,7 +458,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2020-10-18",
@@ -406,7 +472,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2020-10-25",
@@ -418,7 +486,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2020-11-01",
@@ -430,7 +500,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2020-11-08",
@@ -442,7 +514,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2020-11-15",
@@ -454,7 +528,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2020-11-22",
@@ -466,7 +542,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2020-11-29",
@@ -478,7 +556,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2020-12-06",
@@ -490,7 +570,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2020-12-13",
@@ -502,7 +584,9 @@
       "beta": 0.001,
       "gamma": 0,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2020-12-20",
@@ -514,7 +598,9 @@
       "beta": 0.005,
       "gamma": 0,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2020-12-27",
@@ -526,7 +612,9 @@
       "beta": 0.002,
       "gamma": 0,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2021-01-03",
@@ -538,7 +626,9 @@
       "beta": 0.007,
       "gamma": 0,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2021-01-10",
@@ -550,7 +640,9 @@
       "beta": 0.009,
       "gamma": 0.001,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2021-01-17",
@@ -562,7 +654,9 @@
       "beta": 0.005,
       "gamma": 0,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2021-01-24",
@@ -574,7 +668,9 @@
       "beta": 0.007,
       "gamma": 0,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2021-01-31",
@@ -586,7 +682,9 @@
       "beta": 0.011,
       "gamma": 0.003,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2021-02-07",
@@ -598,7 +696,9 @@
       "beta": 0.021,
       "gamma": 0.005,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2021-02-14",
@@ -610,7 +710,9 @@
       "beta": 0.012,
       "gamma": 0.014,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2021-02-21",
@@ -622,7 +724,9 @@
       "beta": 0.02,
       "gamma": 0.023,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2021-02-28",
@@ -634,7 +738,9 @@
       "beta": 0.013,
       "gamma": 0.028,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2021-03-07",
@@ -646,7 +752,9 @@
       "beta": 0.009,
       "gamma": 0.056,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2021-03-14",
@@ -658,7 +766,9 @@
       "beta": 0.016,
       "gamma": 0.092,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2021-03-21",
@@ -670,7 +780,9 @@
       "beta": 0.018,
       "gamma": 0.182,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2021-03-28",
@@ -682,7 +794,9 @@
       "beta": 0.022,
       "gamma": 0.236,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2021-04-04",
@@ -694,7 +808,9 @@
       "beta": 0.029,
       "gamma": 0.265,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2021-04-11",
@@ -706,7 +822,9 @@
       "beta": 0.02,
       "gamma": 0.237,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2021-04-18",
@@ -718,7 +836,9 @@
       "beta": 0.012,
       "gamma": 0.188,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2021-04-25",
@@ -730,7 +850,9 @@
       "beta": 0.016,
       "gamma": 0.228,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2021-05-02",
@@ -742,7 +864,9 @@
       "beta": 0.009,
       "gamma": 0.205,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2021-05-09",
@@ -754,7 +878,9 @@
       "beta": 0.009,
       "gamma": 0.223,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2021-05-16",
@@ -766,7 +892,9 @@
       "beta": 0.01,
       "gamma": 0.244,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2021-05-23",
@@ -778,7 +906,9 @@
       "beta": 0.006,
       "gamma": 0.218,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2021-05-30",
@@ -790,7 +920,9 @@
       "beta": 0.007,
       "gamma": 0.212,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2021-06-06",
@@ -802,7 +934,9 @@
       "beta": 0.005,
       "gamma": 0.15,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2021-06-13",
@@ -814,7 +948,9 @@
       "beta": 0.005,
       "gamma": 0.121,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2021-06-20",
@@ -826,7 +962,9 @@
       "beta": 0.008,
       "gamma": 0.11,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2021-06-27",
@@ -838,7 +976,9 @@
       "beta": 0.008,
       "gamma": 0.103,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2021-07-04",
@@ -850,7 +990,9 @@
       "beta": 0.004,
       "gamma": 0.098,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2021-07-11",
@@ -862,7 +1004,9 @@
       "beta": 0.002,
       "gamma": 0.092,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2021-07-18",
@@ -874,7 +1018,9 @@
       "beta": 0.002,
       "gamma": 0.052,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2021-07-25",
@@ -886,7 +1032,9 @@
       "beta": 0,
       "gamma": 0.02,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2021-08-01",
@@ -898,7 +1046,9 @@
       "beta": 0,
       "gamma": 0.014,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2021-08-08",
@@ -910,7 +1060,9 @@
       "beta": 0,
       "gamma": 0.006,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2021-08-15",
@@ -922,7 +1074,9 @@
       "beta": 0,
       "gamma": 0.004,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2021-08-22",
@@ -934,7 +1088,9 @@
       "beta": 0,
       "gamma": 0.003,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2021-08-29",
@@ -946,7 +1102,9 @@
       "beta": 0,
       "gamma": 0.003,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2021-09-05",
@@ -958,7 +1116,9 @@
       "beta": 0,
       "gamma": 0.001,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2021-09-12",
@@ -970,7 +1130,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2021-09-19",
@@ -982,7 +1144,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2021-09-26",
@@ -994,7 +1158,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2021-10-03",
@@ -1006,7 +1172,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2021-10-10",
@@ -1018,7 +1186,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2021-10-17",
@@ -1030,7 +1200,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2021-10-24",
@@ -1042,7 +1214,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2021-10-31",
@@ -1054,7 +1228,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2021-11-07",
@@ -1066,7 +1242,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2021-11-14",
@@ -1078,7 +1256,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2021-11-21",
@@ -1090,7 +1270,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0.003,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2021-11-28",
@@ -1102,7 +1284,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0.02,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2021-12-05",
@@ -1114,7 +1298,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0.224,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2021-12-12",
@@ -1126,7 +1312,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0.568,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2021-12-19",
@@ -1138,7 +1326,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0.846,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2021-12-26",
@@ -1150,7 +1340,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0.939,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2022-01-02",
@@ -1162,7 +1354,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0.947,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2022-01-09",
@@ -1174,7 +1368,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0.951,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2022-01-16",
@@ -1186,7 +1382,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0.933,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2022-01-23",
@@ -1198,7 +1396,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0.908,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2022-01-30",
@@ -1210,7 +1410,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0.904,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2022-02-06",
@@ -1222,7 +1424,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0.903,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2022-02-13",
@@ -1234,7 +1438,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0.846,
-      "other_omicron": 0.001
+      "omicron_ba3": 0.001,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2022-02-20",
@@ -1246,7 +1452,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0.776,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2022-02-27",
@@ -1258,7 +1466,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0.695,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2022-03-06",
@@ -1270,7 +1480,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0.598,
-      "other_omicron": 0.001
+      "omicron_ba3": 0.001,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2022-03-13",
@@ -1282,7 +1494,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0.524,
-      "other_omicron": 0.001
+      "omicron_ba3": 0.001,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2022-03-20",
@@ -1294,7 +1508,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0.373,
-      "other_omicron": 0.001
+      "omicron_ba3": 0.001,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2022-03-27",
@@ -1306,7 +1522,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0.252,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2022-04-03",
@@ -1318,7 +1536,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0.158,
-      "other_omicron": 0
+      "omicron_ba3": 0,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2022-04-10",
@@ -1330,7 +1550,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0.096,
-      "other_omicron": 0.001
+      "omicron_ba3": 0.001,
+      "omicron_ba4": 0,
+      "omicron_ba5": 0
     },
     {
       "week": "2022-04-17",
@@ -1342,7 +1564,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0.057,
-      "other_omicron": 0.002
+      "omicron_ba3": 0.001,
+      "omicron_ba4": 0.001,
+      "omicron_ba5": 0
     },
     {
       "week": "2022-04-24",
@@ -1354,7 +1578,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0.038,
-      "other_omicron": 0.002
+      "omicron_ba3": 0.001,
+      "omicron_ba4": 0.001,
+      "omicron_ba5": 0
     },
     {
       "week": "2022-05-01",
@@ -1366,7 +1592,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0.029,
-      "other_omicron": 0.004
+      "omicron_ba3": 0.001,
+      "omicron_ba4": 0.002,
+      "omicron_ba5": 0.001
     },
     {
       "week": "2022-05-08",
@@ -1378,7 +1606,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0.017,
-      "other_omicron": 0.008
+      "omicron_ba3": 0.001,
+      "omicron_ba4": 0.005,
+      "omicron_ba5": 0.002
     },
     {
       "week": "2022-05-15",
@@ -1390,7 +1620,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0.01,
-      "other_omicron": 0.02
+      "omicron_ba3": 0.001,
+      "omicron_ba4": 0.008,
+      "omicron_ba5": 0.011
     },
     {
       "week": "2022-05-22",
@@ -1402,7 +1634,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0.01,
-      "other_omicron": 0.061
+      "omicron_ba3": 0.001,
+      "omicron_ba4": 0.028,
+      "omicron_ba5": 0.032
     },
     {
       "week": "2022-05-29",
@@ -1414,7 +1648,9 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0.003,
-      "other_omicron": 0.108
+      "omicron_ba3": 0.002,
+      "omicron_ba4": 0.035,
+      "omicron_ba5": 0.071
     },
     {
       "week": "2022-06-05",
@@ -1426,8 +1662,10 @@
       "beta": 0,
       "gamma": 0,
       "omicron_ba1": 0.003,
-      "other_omicron": 0.228
+      "omicron_ba3": 0.001,
+      "omicron_ba4": 0.081,
+      "omicron_ba5": 0.146
     }
   ],
-  "last_updated": "2022-06-24T15:03:48-0400"
+  "last_updated": "2022-06-28T16:27:03-0400"
 }
