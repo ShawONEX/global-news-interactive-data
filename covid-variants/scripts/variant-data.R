@@ -45,9 +45,7 @@ if (dataset_date_match & new_date_update) {
     # group variants of interest into a single category,
     # and collapse everything else into "other"
     mutate(variant_group = case_when(
-      str_detect(lineage_grouped, "BA.1") ~ "omicron_ba1",
-      str_detect(lineage_grouped, "BA.2") ~ "omicron_ba2",
-      variant_grouping == "Omicron" ~ "other_omicron",
+      variant_grouping == "Omicron" ~ paste("omicron", str_remove(identifier, "\\."), sep = "_") %>% tolower,
       variant_grouping %in% c("Alpha", "Beta", "Gamma", "Delta") ~ tolower(identifier),
       TRUE ~ "other"
     )) %>% 
@@ -89,7 +87,7 @@ if (dataset_date_match & new_date_update) {
       fill = variant_group
     )) + 
     geom_col() + 
-    scale_fill_manual(values = brewer.pal(9, "Purples")[2:9]) + 
+    scale_fill_manual(values = brewer.pal(9, "Purples")[1:9]) + 
     theme_minimal() +
     scale_y_continuous(labels = percent) +
     labs(
