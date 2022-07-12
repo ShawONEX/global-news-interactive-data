@@ -45,7 +45,10 @@ if (dataset_date_match & new_date_update) {
     # group variants of interest into a single category,
     # and collapse everything else into "other"
     mutate(variant_group = case_when(
-      variant_grouping == "Omicron" ~ paste("omicron", str_remove(identifier, "\\."), sep = "_") %>% tolower,
+      variant_grouping == "Omicron" ~ str_remove(identifier, "\\.") %>%
+                                        str_remove(" Omicron") %>%
+                                        paste("omicron", ., sep = "_") %>%
+                                        tolower,
       variant_grouping %in% c("Alpha", "Beta", "Gamma", "Delta") ~ tolower(identifier),
       TRUE ~ "other"
     )) %>% 
@@ -79,7 +82,7 @@ if (dataset_date_match & new_date_update) {
 
   # Save a chart
   variant_chart <- variant_data %>% 
-    filter(variant_group != "other") %>% 
+    filter(!str_detect(variant_group, "other")) %>% 
     ggplot(aes(
       x = week, 
       y = percent_normalized, 
