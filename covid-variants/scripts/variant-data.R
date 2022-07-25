@@ -49,7 +49,7 @@ if (dataset_date_match & new_date_update) {
                                         str_remove(" Omicron") %>%
                                         paste("omicron", ., sep = "_") %>%
                                         tolower,
-      variant_grouping %in% c("Alpha", "Beta", "Gamma", "Delta") ~ tolower(identifier),
+      identifier %in% c("Alpha", "Beta", "Gamma", "Delta") ~ tolower(identifier),
       TRUE ~ "other"
     )) %>% 
     group_by(week = collection_week, variant_group) %>% 
