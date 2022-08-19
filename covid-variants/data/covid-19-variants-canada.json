@@ -1577,14 +1577,14 @@
     },
     {
       "week": "2022-03-06",
-      "n_samples": 3990,
+      "n_samples": 3993,
       "other": 0.001,
-      "omicron_ba2": 0.401,
+      "omicron_ba2": 0.4,
       "delta": 0,
       "alpha": 0,
       "beta": 0,
       "gamma": 0,
-      "omicron_ba1": 0.597,
+      "omicron_ba1": 0.598,
       "omicron_ba3": 0.001,
       "omicron_other": 0,
       "omicron_ba4": 0,
@@ -1592,14 +1592,14 @@
     },
     {
       "week": "2022-03-13",
-      "n_samples": 4114,
+      "n_samples": 4170,
       "other": 0.004,
-      "omicron_ba2": 0.473,
+      "omicron_ba2": 0.472,
       "delta": 0,
       "alpha": 0,
       "beta": 0,
       "gamma": 0,
-      "omicron_ba1": 0.522,
+      "omicron_ba1": 0.523,
       "omicron_ba3": 0.001,
       "omicron_other": 0,
       "omicron_ba4": 0,
@@ -1667,7 +1667,7 @@
     },
     {
       "week": "2022-04-17",
-      "n_samples": 4903,
+      "n_samples": 4904,
       "other": 0.005,
       "omicron_ba2": 0.936,
       "delta": 0,
@@ -1682,7 +1682,7 @@
     },
     {
       "week": "2022-04-24",
-      "n_samples": 4897,
+      "n_samples": 4900,
       "other": 0.005,
       "omicron_ba2": 0.954,
       "delta": 0,
@@ -1712,7 +1712,7 @@
     },
     {
       "week": "2022-05-08",
-      "n_samples": 4132,
+      "n_samples": 4133,
       "other": 0.001,
       "omicron_ba2": 0.973,
       "delta": 0,
@@ -1742,7 +1742,7 @@
     },
     {
       "week": "2022-05-22",
-      "n_samples": 3364,
+      "n_samples": 3365,
       "other": 0,
       "omicron_ba2": 0.93,
       "delta": 0,
@@ -1817,7 +1817,7 @@
     },
     {
       "week": "2022-06-26",
-      "n_samples": 3594,
+      "n_samples": 3593,
       "other": 0,
       "omicron_ba2": 0.331,
       "delta": 0,
@@ -1832,9 +1832,9 @@
     },
     {
       "week": "2022-07-03",
-      "n_samples": 4475,
+      "n_samples": 4424,
       "other": 0,
-      "omicron_ba2": 0.236,
+      "omicron_ba2": 0.239,
       "delta": 0,
       "alpha": 0,
       "beta": 0,
@@ -1842,14 +1842,14 @@
       "omicron_ba1": 0.003,
       "omicron_ba3": 0,
       "omicron_other": 0,
-      "omicron_ba4": 0.118,
-      "omicron_ba5": 0.643
+      "omicron_ba4": 0.119,
+      "omicron_ba5": 0.64
     },
     {
       "week": "2022-07-10",
-      "n_samples": 4770,
+      "n_samples": 4820,
       "other": 0,
-      "omicron_ba2": 0.141,
+      "omicron_ba2": 0.14,
       "delta": 0,
       "alpha": 0,
       "beta": 0,
@@ -1857,14 +1857,14 @@
       "omicron_ba1": 0.001,
       "omicron_ba3": 0,
       "omicron_other": 0,
-      "omicron_ba4": 0.113,
+      "omicron_ba4": 0.114,
       "omicron_ba5": 0.745
     },
     {
       "week": "2022-07-17",
-      "n_samples": 3723,
+      "n_samples": 4118,
       "other": 0,
-      "omicron_ba2": 0.089,
+      "omicron_ba2": 0.091,
       "delta": 0,
       "alpha": 0,
       "beta": 0,
@@ -1872,24 +1872,39 @@
       "omicron_ba1": 0.001,
       "omicron_ba3": 0,
       "omicron_other": 0,
-      "omicron_ba4": 0.106,
-      "omicron_ba5": 0.804
+      "omicron_ba4": 0.114,
+      "omicron_ba5": 0.794
     },
     {
       "week": "2022-07-24",
-      "n_samples": 1177,
+      "n_samples": 2076,
       "other": 0,
-      "omicron_ba2": 0.058,
+      "omicron_ba2": 0.057,
       "delta": 0,
       "alpha": 0,
       "beta": 0,
       "gamma": 0,
-      "omicron_ba1": 0,
+      "omicron_ba1": 0.001,
       "omicron_ba3": 0,
       "omicron_other": 0,
-      "omicron_ba4": 0.093,
-      "omicron_ba5": 0.849
+      "omicron_ba4": 0.126,
+      "omicron_ba5": 0.816
+    },
+    {
+      "week": "2022-07-31",
+      "n_samples": 933,
+      "other": 0,
+      "omicron_ba2": 0.027,
+      "delta": 0,
+      "alpha": 0,
+      "beta": 0,
+      "gamma": 0,
+      "omicron_ba1": 0.001,
+      "omicron_ba3": 0,
+      "omicron_other": 0,
+      "omicron_ba4": 0.105,
+      "omicron_ba5": 0.867
     }
   ],
-  "last_updated": "2022-08-12T15:03:48-0400"
+  "last_updated": "2022-08-19T15:42:51-0400"
 }
