@@ -1847,7 +1847,7 @@
     },
     {
       "week": "2022-07-10",
-      "n_samples": 4831,
+      "n_samples": 4830,
       "other": 0.001,
       "omicron_ba2": 0.14,
       "omicron_ba5": 0.744,
@@ -1877,10 +1877,10 @@
     },
     {
       "week": "2022-07-24",
-      "n_samples": 3790,
+      "n_samples": 3812,
       "other": 0,
       "omicron_ba2": 0.062,
-      "omicron_ba5": 0.821,
+      "omicron_ba5": 0.82,
       "delta": 0,
       "alpha": 0,
       "beta": 0,
@@ -1888,13 +1888,13 @@
       "omicron_ba1": 0.001,
       "omicron_ba3": 0,
       "omicron_other": 0,
-      "omicron_ba4": 0.116
+      "omicron_ba4": 0.117
     },
     {
       "week": "2022-07-31",
-      "n_samples": 4035,
+      "n_samples": 4053,
       "other": 0,
-      "omicron_ba2": 0.041,
+      "omicron_ba2": 0.042,
       "omicron_ba5": 0.86,
       "delta": 0,
       "alpha": 0,
@@ -1903,14 +1903,14 @@
       "omicron_ba1": 0.001,
       "omicron_ba3": 0,
       "omicron_other": 0,
-      "omicron_ba4": 0.098
+      "omicron_ba4": 0.097
     },
     {
       "week": "2022-08-07",
-      "n_samples": 2982,
+      "n_samples": 3419,
       "other": 0,
-      "omicron_ba2": 0.034,
-      "omicron_ba5": 0.869,
+      "omicron_ba2": 0.037,
+      "omicron_ba5": 0.862,
       "delta": 0,
       "alpha": 0,
       "beta": 0,
@@ -1918,14 +1918,14 @@
       "omicron_ba1": 0.002,
       "omicron_ba3": 0,
       "omicron_other": 0,
-      "omicron_ba4": 0.095
+      "omicron_ba4": 0.099
     },
     {
       "week": "2022-08-14",
-      "n_samples": 1060,
+      "n_samples": 2053,
       "other": 0,
-      "omicron_ba2": 0.038,
-      "omicron_ba5": 0.879,
+      "omicron_ba2": 0.027,
+      "omicron_ba5": 0.885,
       "delta": 0,
       "alpha": 0,
       "beta": 0,
@@ -1933,8 +1933,23 @@
       "omicron_ba1": 0,
       "omicron_ba3": 0,
       "omicron_other": 0,
-      "omicron_ba4": 0.083
+      "omicron_ba4": 0.088
+    },
+    {
+      "week": "2022-08-21",
+      "n_samples": 1570,
+      "other": 0,
+      "omicron_ba2": 0.019,
+      "omicron_ba5": 0.9,
+      "delta": 0,
+      "alpha": 0,
+      "beta": 0,
+      "gamma": 0,
+      "omicron_ba1": 0.001,
+      "omicron_ba3": 0,
+      "omicron_other": 0,
+      "omicron_ba4": 0.08
     }
   ],
-  "last_updated": "2022-09-02T15:03:54-0400"
+  "last_updated": "2022-09-09T15:04:25-0400"
 }
