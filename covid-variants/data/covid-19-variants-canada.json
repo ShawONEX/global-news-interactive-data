@@ -2147,7 +2147,7 @@
     },
     {
       "week": "2022-11-27",
-      "n_samples": 2238,
+      "n_samples": 2243,
       "other": 0.01,
       "omicron_ba2": 0.032,
       "omicron_ba5": 0.936,
@@ -2162,9 +2162,24 @@
     },
     {
       "week": "2022-12-04",
-      "n_samples": 1406,
+      "n_samples": 1525,
       "other": 0.02,
       "omicron_ba2": 0.034,
+      "omicron_ba5": 0.924,
+      "delta": 0,
+      "alpha": 0,
+      "beta": 0,
+      "gamma": 0,
+      "omicron_ba1": 0,
+      "omicron_other": 0,
+      "omicron_ba3": 0,
+      "omicron_ba4": 0.022
+    },
+    {
+      "week": "2022-12-11",
+      "n_samples": 1080,
+      "other": 0.014,
+      "omicron_ba2": 0.032,
       "omicron_ba5": 0.923,
       "delta": 0,
       "alpha": 0,
@@ -2173,8 +2188,8 @@
       "omicron_ba1": 0,
       "omicron_other": 0,
       "omicron_ba3": 0,
-      "omicron_ba4": 0.023
+      "omicron_ba4": 0.031
     }
   ],
-  "last_updated": "2022-12-23T15:03:56-0500"
+  "last_updated": "2022-12-30T15:03:55-0500"
 }
