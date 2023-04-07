@@ -1757,7 +1757,7 @@
     },
     {
       "week": "2022-05-29",
-      "n_samples": 3110,
+      "n_samples": 3111,
       "other": 0.014,
       "omicron_ba2": 0.862,
       "omicron_ba5": 0.08,
@@ -1772,7 +1772,7 @@
     },
     {
       "week": "2022-06-05",
-      "n_samples": 3423,
+      "n_samples": 3475,
       "other": 0.007,
       "omicron_ba2": 0.766,
       "omicron_ba5": 0.152,
@@ -2327,7 +2327,7 @@
     },
     {
       "week": "2023-02-19",
-      "n_samples": 2775,
+      "n_samples": 2777,
       "other": 0.5,
       "omicron_ba2": 0.032,
       "omicron_ba5": 0.468,
@@ -2342,10 +2342,10 @@
     },
     {
       "week": "2023-02-26",
-      "n_samples": 2437,
-      "other": 0.614,
+      "n_samples": 2441,
+      "other": 0.615,
       "omicron_ba2": 0.036,
-      "omicron_ba5": 0.349,
+      "omicron_ba5": 0.348,
       "delta": 0,
       "alpha": 0,
       "beta": 0,
@@ -2357,10 +2357,10 @@
     },
     {
       "week": "2023-03-05",
-      "n_samples": 2343,
-      "other": 0.722,
-      "omicron_ba2": 0.046,
-      "omicron_ba5": 0.231,
+      "n_samples": 2594,
+      "other": 0.723,
+      "omicron_ba2": 0.048,
+      "omicron_ba5": 0.228,
       "delta": 0,
       "alpha": 0,
       "beta": 0,
@@ -2372,10 +2372,10 @@
     },
     {
       "week": "2023-03-12",
-      "n_samples": 1452,
-      "other": 0.728,
-      "omicron_ba2": 0.053,
-      "omicron_ba5": 0.219,
+      "n_samples": 2381,
+      "other": 0.749,
+      "omicron_ba2": 0.051,
+      "omicron_ba5": 0.2,
       "delta": 0,
       "alpha": 0,
       "beta": 0,
@@ -2384,7 +2384,22 @@
       "omicron_other": 0,
       "omicron_ba3": 0,
       "omicron_ba4": 0
+    },
+    {
+      "week": "2023-03-19",
+      "n_samples": 1118,
+      "other": 0.799,
+      "omicron_ba2": 0.047,
+      "omicron_ba5": 0.153,
+      "delta": 0,
+      "alpha": 0,
+      "beta": 0,
+      "gamma": 0,
+      "omicron_ba1": 0,
+      "omicron_other": 0,
+      "omicron_ba3": 0.001,
+      "omicron_ba4": 0
     }
   ],
-  "last_updated": "2023-03-31T15:03:41-0400"
+  "last_updated": "2023-04-07T15:03:41-0400"
 }
