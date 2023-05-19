@@ -2372,7 +2372,7 @@
     },
     {
       "week": "2023-03-12",
-      "n_samples": 2683,
+      "n_samples": 2684,
       "other": 0.758,
       "omicron_ba2": 0.047,
       "omicron_ba5": 0.195,
@@ -2402,10 +2402,10 @@
     },
     {
       "week": "2023-03-26",
-      "n_samples": 2394,
-      "other": 0.838,
+      "n_samples": 2402,
+      "other": 0.837,
       "omicron_ba2": 0.047,
-      "omicron_ba5": 0.115,
+      "omicron_ba5": 0.116,
       "delta": 0,
       "alpha": 0,
       "beta": 0,
@@ -2417,10 +2417,10 @@
     },
     {
       "week": "2023-04-02",
-      "n_samples": 2046,
-      "other": 0.865,
+      "n_samples": 2063,
+      "other": 0.864,
       "omicron_ba2": 0.035,
-      "omicron_ba5": 0.096,
+      "omicron_ba5": 0.097,
       "delta": 0,
       "alpha": 0,
       "beta": 0,
@@ -2432,10 +2432,10 @@
     },
     {
       "week": "2023-04-09",
-      "n_samples": 2137,
+      "n_samples": 2194,
       "other": 0.896,
-      "omicron_ba2": 0.037,
-      "omicron_ba5": 0.064,
+      "omicron_ba2": 0.036,
+      "omicron_ba5": 0.065,
       "delta": 0,
       "alpha": 0,
       "beta": 0,
@@ -2447,7 +2447,7 @@
     },
     {
       "week": "2023-04-16",
-      "n_samples": 1891,
+      "n_samples": 2125,
       "other": 0.923,
       "omicron_ba2": 0.033,
       "omicron_ba5": 0.044,
@@ -2462,10 +2462,25 @@
     },
     {
       "week": "2023-04-23",
-      "n_samples": 841,
-      "other": 0.903,
-      "omicron_ba2": 0.052,
-      "omicron_ba5": 0.045,
+      "n_samples": 1787,
+      "other": 0.904,
+      "omicron_ba2": 0.043,
+      "omicron_ba5": 0.052,
+      "delta": 0,
+      "alpha": 0,
+      "beta": 0,
+      "gamma": 0,
+      "omicron_ba1": 0,
+      "omicron_other": 0,
+      "omicron_ba3": 0.001,
+      "omicron_ba4": 0
+    },
+    {
+      "week": "2023-04-30",
+      "n_samples": 1331,
+      "other": 0.933,
+      "omicron_ba2": 0.038,
+      "omicron_ba5": 0.029,
       "delta": 0,
       "alpha": 0,
       "beta": 0,
@@ -2476,5 +2491,5 @@
       "omicron_ba4": 0
     }
   ],
-  "last_updated": "2023-05-12T15:04:10-0400"
+  "last_updated": "2023-05-19T15:43:21-0400"
 }
