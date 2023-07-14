@@ -2537,10 +2537,10 @@
     },
     {
       "week": "2023-05-28",
-      "n_samples": 1232,
+      "n_samples": 1242,
       "other": 0.915,
-      "omicron_ba2": 0.019,
-      "omicron_ba5": 0.065,
+      "omicron_ba2": 0.02,
+      "omicron_ba5": 0.064,
       "delta": 0,
       "alpha": 0,
       "beta": 0,
@@ -2552,10 +2552,10 @@
     },
     {
       "week": "2023-06-04",
-      "n_samples": 881,
-      "other": 0.922,
+      "n_samples": 895,
+      "other": 0.923,
       "omicron_ba2": 0.011,
-      "omicron_ba5": 0.065,
+      "omicron_ba5": 0.064,
       "delta": 0,
       "alpha": 0,
       "beta": 0,
@@ -2567,10 +2567,25 @@
     },
     {
       "week": "2023-06-11",
-      "n_samples": 680,
-      "other": 0.902,
-      "omicron_ba2": 0.021,
+      "n_samples": 721,
+      "other": 0.905,
+      "omicron_ba2": 0.019,
       "omicron_ba5": 0.075,
+      "delta": 0,
+      "alpha": 0,
+      "beta": 0,
+      "gamma": 0,
+      "omicron_ba1": 0,
+      "omicron_other": 0,
+      "omicron_ba3": 0.001,
+      "omicron_ba4": 0
+    },
+    {
+      "week": "2023-06-18",
+      "n_samples": 592,
+      "other": 0.907,
+      "omicron_ba2": 0.015,
+      "omicron_ba5": 0.076,
       "delta": 0,
       "alpha": 0,
       "beta": 0,
@@ -2581,11 +2596,11 @@
       "omicron_ba4": 0
     },
     {
-      "week": "2023-06-18",
-      "n_samples": 65,
-      "other": 0.892,
-      "omicron_ba2": 0.031,
-      "omicron_ba5": 0.077,
+      "week": "2023-06-25",
+      "n_samples": 227,
+      "other": 0.881,
+      "omicron_ba2": 0.022,
+      "omicron_ba5": 0.097,
       "delta": 0,
       "alpha": 0,
       "beta": 0,
@@ -2596,5 +2611,5 @@
       "omicron_ba4": 0
     }
   ],
-  "last_updated": "2023-07-07T15:04:13-0400"
+  "last_updated": "2023-07-14T15:03:55-0400"
 }
