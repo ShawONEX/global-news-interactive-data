@@ -4,9 +4,6 @@ name: covid-variants
 # job runs every 20 mins from 2:20-7pm EST on Fridays
 on: 
   workflow_dispatch:
-  schedule:
-    - cron: '19,39,59 18-23 * * 5'
-    - cron: '0 5 * * *'
 
 jobs:
   scrape:
