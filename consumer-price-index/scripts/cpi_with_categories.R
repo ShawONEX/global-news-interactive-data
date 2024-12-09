@@ -9,7 +9,84 @@ library(ggraph)
 library(purrr)
 library(lubridate)
 
-source("consumer-price-index/scripts/cpi_categories.R")
+
+cpi_list <- c(
+  "Meat",
+  "Fish, seafood and other marine products",
+  "Dairy products and eggs",
+  "Fresh fruit",
+  "Bakery products",
+  "Vegetables and vegetable preparations",
+  "Coffee",
+  "Food purchased from restaurants",
+  "Rent",
+  "Owned accommodation",
+  "Electricity",
+  "Water",
+  "Natural gas",
+  "Fuel oil and other fuels",
+  "Internet access services",
+  "Telephone services",
+  "Pet food and supplies",
+  "Furniture",
+  "Household appliances",
+  "Financial services",
+  "Child care services",
+  "Household cleaning products",
+  "Sporting and exercise equipment",
+  "Clothing",
+  "Footwear",
+  "Clothing accessories, watches and jewellery",
+  "Public transportation",
+  "Rental of passenger vehicles",
+  "Purchase of passenger vehicles",
+  "Gasoline",
+  "Passenger vehicle parts, maintenance and repairs",
+  "Passenger vehicle insurance premiums",
+  "Air transportation",
+  "Eye care services",
+  "Dental care services",
+  "Prescribed medicines",
+  "Non-prescribed medicines",
+  "Home entertainment equipment, parts and services",
+  "Travel services",
+  "Toiletry items and cosmetics",
+  "Digital computing equipment and devices",
+  "Toys, games and hobby supplies",
+  "Toiletry items and cosmetics",
+  "Books and reading material",
+  "Tuition fees",
+  "Recreational cannabis",
+  "Alcoholic beverages",
+  "Cigarettes"
+)
+
+category_list <- c(
+  "All-items",
+  "Recreation, education and reading",
+  "Alcoholic beverages, tobacco products and recreational cannabis",
+  "Food",
+  "Shelter",
+  "Household operations, furnishings and equipment",
+  "Clothing and footwear",
+  "Transportation",
+  "Health and personal care"
+)
+
+geo_list <- c(
+  "Canada",
+  "Alberta",
+  "British Columbia",
+  "Manitoba",
+  "New Brunswick",
+  "Newfoundland and Labrador",
+  "Nova Scotia",
+  "Ontario",
+  "Prince Edward Island",
+  "Quebec",
+  "Saskatchewan"
+)
+
 
 temp <- tempfile(fileext = "zip")
 download.file("https://www150.statcan.gc.ca/n1/tbl/csv/18100004-eng.zip", temp)
@@ -18,14 +95,16 @@ cpi <- unz(temp, "18100004.csv") %>%
   vroom %>%
   clean_names
 
+
 metadata <- unz(temp, "18100004_MetaData.csv") %>%
   vroom(skip = 7) %>%
   clean_names %>%
-  filter(dimension_id == 2, !is.na(member_id)) %>%
+  filter(dimension_id == 2, !is.na(member_id)) %>% 
   mutate(member_name = str_remove(member_name, " \\(.+\\)") %>% str_squish) %>%
   select(member_name, member_id, parent_member_id)
 
 unlink(temp)
+
 
 metadata <- left_join(
   metadata, metadata,
@@ -36,18 +115,30 @@ metadata <- left_join(
 
 metadata_graph <- as_tbl_graph(metadata)
 
-root <- metadata_graph %>%
-  activate(nodes) %>%
-  mutate(
-    leaf = node_is_leaf(),
-    node = map_bfs(node_is_root(), .f = function(node, ...) { node }),
-    root = map_bfs(node_is_root(), .f = function(path, ...) { path$node[1] })
-  ) %>%
-  as_tibble
+# number of components in the created graph
+number_of_components = metadata_graph %>% to_components() %>% length()
+# a table to contain the nodes and their main root
+node_parents <- tibble()
+for (i in 1:number_of_components){
+  # iterate over each component of the graph
+  component <- metadata_graph %>% filter(group_components()==i)
+  # identify the root node in each component
+  root<- component %>% activate(nodes) %>%
+    filter(centrality_degree(mode = "in") == 0) %>%
+    pull(name) %>%
+    first()
+  # create a column called category that shows the root for each node in the component
+  temp_table<- metadata_graph %>% filter(group_components()==i) %>% 
+    activate(nodes) %>% 
+    as_tibble %>% 
+    mutate(category = if_else(name == root, NA, root))
+  
+  # stack all the nodes and parents
+  node_parents <- bind_rows(node_parents, temp_table)
 
-node_parents <- root %>%
-  left_join(root %>% select(node, name), by = c("root" = "node")) %>%
-  transmute(product = name.x, category = name.y)
+}
+
+node_parents<- node_parents %>% rename(product=name)
 
 cpi_joined <- cpi %>% 
   select(ref_date, geo, products_and_product_groups, value) %>%
@@ -109,7 +200,7 @@ list(
   last_updated = format_ISO8601(now(), usetz = TRUE)
 ) %>%
   write_json(
-    "consumer-price-index/data/consumer-price-index.json",
+    "./consumer-price-index/data/consumer-price-index.json",
     na = "null",
     pretty = TRUE,
     auto_unbox = TRUE

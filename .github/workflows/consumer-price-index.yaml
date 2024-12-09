@@ -2,16 +2,16 @@ name: consumer-price-index
 
 on: 
   schedule:
-    - cron: '30 12 22 06 *'
-    - cron: '30 12 20 07 *'
-    - cron: '30 12 16 08 *'
-    - cron: '30 12 20 09 *'
-    - cron: '30 12 19 10 *'
-    - cron: '30 13 16 11 *'
-    - cron: '30 13 21 12 *'
-    - cron: '30 13 17 01 *'
-    - cron: '30 13 21 02 *'
-    - cron: '30 13 21 03 *'
+    - cron: '30 12 22 06 *' # 12:30 22 June
+    - cron: '30 12 20 07 *' # 12:30 20 July
+    - cron: '30 12 16 08 *' # 12:30 16 August
+    - cron: '30 12 20 09 *' # 12:30 20 September
+    - cron: '30 12 19 10 *' # 12:30 19 October
+    - cron: '30 13 16 11 *' # 13:30 16 November
+    - cron: '30 13 21 12 *' # 13:30 21 December
+    - cron: '30 13 17 01 *' # 13:30 17 January
+    - cron: '30 13 21 02 *' # 13:30 21 February
+    - cron: '30 13 21 03 *' # 13:30 21 March (April and May skipped)
   workflow_dispatch:
 
 jobs:
@@ -31,7 +31,7 @@ jobs:
       with:
         working-directory: consumer-price-index/scripts
     - name: Run data script
-      run: Rscript consumer-price-index/scripts/cpi.R
+      run: Rscript consumer-price-index/scripts/cpi_with_categories.R
     - name: Commit data
       run: |-
         git config user.name "gn-scraper"
